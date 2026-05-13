@@ -952,6 +952,7 @@
         .social-link-btn.discord:hover { background: #5865F2; border-color: #5865F2; color: white; box-shadow: 0 8px 25px rgba(88, 101, 242, 0.3); }
         .social-link-btn.instagram:hover { background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); border-color: transparent; color: white; box-shadow: 0 8px 25px rgba(220, 39, 67, 0.3); }
         .social-link-btn.tiktok:hover { background: #000000; border-color: #ff0050; color: #ff0050; box-shadow: 0 8px 25px rgba(255, 0, 80, 0.3); }
+        .social-link-btn.facebook:hover { background: #1877F2; border-color: #1877F2; color: white; box-shadow: 0 8px 25px rgba(24, 119, 242, 0.3); }
 
         /* ===== COMBO CARD (Sensi + HUD) ===== */
         .combo-section {
@@ -1885,9 +1886,9 @@
     <div class="qr-modal" id="qrModal" onclick="closeQR(event)">
         <div class="qr-content" onclick="event.stopPropagation()">
             <button class="qr-close" onclick="closeQR()"><i class="fas fa-times"></i></button>
-            <div class="qr-title"><i class="fas fa-gift" style="color: var(--primary); margin-right: 0.5rem;"></i>idol gim123 qr</div>
+            <div class="qr-title"><i class="fas fa-gift" style="color: var(--primary); margin-right: 0.5rem;"></i>Support via Gcash</div>
             <div class="qr-text">Scan to send GCash gift</div>
-            <img src="images/gcash-qr.jpeg" alt="GCash QR Code" class="qr-image" onerror="this.src='data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 300 300%22&gt;&lt;rect fill=%22%23f0f0f0%22 width=%22300%22 height=%22300%22/&gt;&lt;text fill=%22%23999%22 x=%2250%%22 y=%2250%%22 text-anchor=%22middle%22 font-family=%22sans-serif%22 font-size=%2216%22&gt;GCash QR&lt;/text&gt;&lt;/svg&gt;'">
+            <img src="gcash-qr.jpeg" alt="GCash QR Code" class="qr-image" onerror="this.src='data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 300 300%22&gt;&lt;rect fill=%22%23f0f0f0%22 width=%22300%22 height=%22300%22/&gt;&lt;text fill=%22%23999%22 x=%2250%%22 y=%2250%%22 text-anchor=%22middle%22 font-family=%22sans-serif%22 font-size=%2216%22&gt;GCash QR&lt;/text&gt;&lt;/svg&gt;'">
             <div class="qr-text" style="font-size: 0.8rem; margin-top: 0.5rem; color: var(--text-muted);">Thank you for your support!</div>
         </div>
     </div>
@@ -1898,7 +1899,7 @@
             <button class="qr-close" onclick="closePayPal()" style="position: absolute; top: 1rem; right: 1rem;"><i class="fas fa-times"></i></button>
             <div class="qr-title"><i class="fab fa-paypal" style="color: #0070ba; margin-right: 0.5rem;"></i>Support via PayPal</div>
             <div class="qr-text" style="margin-bottom: 1rem;">Scan to send PayPal gift</div>
-            <img src="images/paypal-qr.jpeg" alt="PayPal QR Code" class="qr-image" style="border-color: #0070ba;" onerror="this.src='data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 300 300%22&gt;&lt;rect fill=%22%23f0f0f0%22 width=%22300%22 height=%22300%22/&gt;&lt;text fill=%22%23999%22 x=%2250%%22 y=%2250%%22 text-anchor=%22middle%22 font-family=%22sans-serif%22 font-size=%2216%22&gt;PayPal QR&lt;/text&gt;&lt;/svg&gt;'">
+            <img src="paypal-qr.jpeg" alt="PayPal QR Code" class="qr-image" style="border-color: #0070ba;" onerror="this.src='data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 300 300%22&gt;&lt;rect fill=%22%23f0f0f0%22 width=%22300%22 height=%22300%22/&gt;&lt;text fill=%22%23999%22 x=%2250%%22 y=%2250%%22 text-anchor=%22middle%22 font-family=%22sans-serif%22 font-size=%2216%22&gt;PayPal QR&lt;/text&gt;&lt;/svg&gt;'">
             <div class="qr-text" style="font-size: 0.8rem; margin-top: 0.5rem; color: var(--text-muted);">Gervimae L. Umali - Thank you for your support!</div>
         </div>
     </div>
@@ -2026,6 +2027,9 @@
                     </a>
                     <a href="https://www.tiktok.com/@gimeow_?_r=1&_t=ZS-96BlX8trWGi" class="social-link-btn tiktok" target="_blank" title="TikTok">
                         <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=61575605443729" class="social-link-btn facebook" target="_blank" title="Facebook">
+                        <i class="fab fa-facebook-f"></i>
                     </a>
                 </div>
             </div>
@@ -2232,7 +2236,7 @@
 
     <!-- ===== FOOTER ===== -->
     <footer class="footer">
-        <p class="footer-text">my fav streamer gimeow1234 love tyrantdevs0961</p>
+        <p class="footer-text">gimeow — CODM Loadouts & Settings</p>
         <p class="footer-copyright">&copy; 2025 gimeow. All rights reserved.</p>
     </footer>
 
